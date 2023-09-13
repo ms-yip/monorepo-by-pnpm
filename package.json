@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -r --filter @monorepo/* run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm -r --filter @monorepo/* run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

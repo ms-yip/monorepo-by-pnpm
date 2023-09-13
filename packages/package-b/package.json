@@ -1,0 +1,15 @@
+{
+  "name": "@monorepo/package-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@monorepo/package-a": "workspace:^1.0.0"
+  }
+}
